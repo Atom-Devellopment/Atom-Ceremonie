@@ -1,0 +1,81 @@
+################################################################################################    
+#            _                              _____                                              #
+#       /\  | |                            / ____|                                             #
+#      /  \ | |_ ___  _ __ ___    ______  | |     ___ _ __ ___ _ __ ___   ___  _ __  _   _     #
+#     / /\ \| __/ _ \| '_ ` _ \  |______| | |    / _ \ '__/ _ \ '_ ` _ \ / _ \| '_ \| | | |    #
+#    / ____ \ || (_) | | | | | |          | |___|  __/ | |  __/ | | | | | (_) | | | | |_| |    #
+#   /_/    \_\__\___/|_| |_| |_|           \_____\___|_|  \___|_| |_| |_|\___/|_| |_|\__, |    #
+#                                                                                     __/ |    #
+#                                                                                    |___/     #
+################################################################################################
+
+#### General #############################################################################
+ceremony-permission: "ceremony.command" #permission for use ceremony commands
+texture-pack-url: "https://cdn.discordapp.com/attachments/1088219491768471553/1254028181778993172/Sodacraft_Ceremony.zip?ex=66780041&is=6676aec1&hm=4d06ee13b669bf984820c0f49b06a153636d73647a6bbb3e5a2183458925c21e&" #url for download your custom texture pack
+ceremony-sound: "records.wait" #sound name was replace by your custom sound
+###########################################################################################
+
+#### Texture pack #########################################################################
+texture-pack-auto-download: false #enable or disable the download of your texture pack on player join
+texture-pack-download-message: #message send at player when is download your texture pack
+  - ""
+  - "&6The texture pack has been downloaded"
+  - ""
+############################################################################################
+
+#### Thank you animation ###################################################################
+active-thank-you-animation: true #enable or disable the thank you animation
+thank-you-animation-cooldown: 5 #cooldown of change player on thank you animation -> 5 = 1/4 of second
+thank-you-animation-message: "&6Merci &e%player% !" #message was send in title bar
+############################################################################################
+
+#### Ceremony ##############################################################################
+ceremony-already-started: "&cLa cérémonie est déjà commencé" #message send if event was already started
+ceremony-time: 407 #ceremony max time
+
+# {CHAT} -> message send on chat
+# {TITLE} -> message send on title bar
+# {SUB-TITLE} -> message send on sub-title 
+# {START-CEREMONY-SOUND} -> start ceremony sound
+# {START-THANK-ANIMATION} -> start thank you animation
+
+ceremony-messages: #message was send on ceremony event
+  1: "{CHAT} &fla cérémonie commence dans &e5 minutes &f!" 
+  2: "{TITLE}&f la cérémonie commence dans &e5 minutes&f !"
+  60: "{CHAT}&f la cérémonie commence dans &e4 minutes&f !" 
+  61: "{TITLE} &fla cérémonie commence dans &e4 minutes&f !"  
+  120: "{CHAT} &fla cérémonie commence dans &e3 minutes&f !" 
+  121: "{TITLE}&f la cérémonie commence dans &e3 minutes&f !" 
+  181: "{CHAT} &fla cérémonie commence dans &e2 minutes&f !"
+  182: "{TITLE}&f la cérémonie commence dans &e2 minutes&f !"
+  240: "{CHAT} &fla cérémonie commence dans &e60 secondes &f!"
+  241: "{TITLE}&f la cérémonie commence dans&e 60 secondes &f!"
+  270: "{CHAT}&f la cérémonie commence dans &e30 secondes&f !"
+  271: "{TITLE}&f la cérémonie commence dans &e30 secondes&f !"
+  295: "{CHAT} &fla cérémonie commence dans &e5 secondes&f !"
+  296: "{TITLE}&f la cérémonie commence dans &e5 secondes&f !"
+  299: "{CHAT} &fQue la cérémonie &ecommence &f!!"
+  300: "{START-CEREMONY-SOUND}"
+  301: "{TITLE} &fQue la cérémonie &ecommence &f!!"
+
+  308: "{TITLE} &fBonjour à tous et &ebienvenue&f dans la &cCinquième {SUB-TITLE}&fversion de &5&lSodaCraft"
+  317: "{SUB-TITLE} &fdans quelque&e minutes &fnous vous ouvriront les porte du serveur &cFaction."
+  322: "{TITLE} &fest ce que vous êtes prêt ? "
+  333: "{TITLE} &6&l5"
+  337: "{TITLE} &e&l4"
+  340: "{TITLE} &a&l3"
+  344: "{TITLE} &b&l2"
+  348: "{TITLE} &c&l1"
+  351: "{TITLE} &fQue la &ccinquième&f version commence &cmaintenant &4!!!!"
+  357: "{TITLE} &fQue le &3futur &fet le &9chaos &fse rencontrent"
+  360: "{TITLE} &fdans une symphonie d'&eaventure &fet de &estratégie&f."
+  368: "{TITLE} &fPréparez-vous à plonger dans des &ccombats &eintenses"
+  371: "{TITLE} &fet à forger des &ealliances&f qui défieront les &eépreuves du temps&f."
+  379: "{TITLE} &5&lSodaCraft &fvous promet une &eexpérience &cinoubliable&f."
+  388: "{TITLE} &fNous vous &bremercions &fd'êtres venue."
+  392: "{TITLE} &fMaintenant a vous de devenir la &6légende&f de l'&3Oasis&f."
+  398: "{TITLE} &fQu'attendez-vous pour &eembarquer &fdans cette aventure &cépique&f ?"
+  403: "{SUB-TITLE} &fque les portes de l'&3oasis &c&lOuvree !!"
+  406: "{START-THANK-ANIMATION}"
+  
+############################################################################################

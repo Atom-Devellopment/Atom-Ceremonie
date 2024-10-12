@@ -1,0 +1,5 @@
+name: AtomCeremony
+author: Atom-Studio
+version: 1.0
+main: fr.atom.ceremony.Ceremony
+
