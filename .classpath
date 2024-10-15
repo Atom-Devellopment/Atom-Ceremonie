@@ -23,5 +23,7 @@
 	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.19-R0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.20.1-R0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.20.2-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Documents/Développement ChronosMarket/LOCALHOST/LocalHost 1.8 vanilla/plugins/AtomApi.jar"/>
+	<classpathentry kind="src" path="/api"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
